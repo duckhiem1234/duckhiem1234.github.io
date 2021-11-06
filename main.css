@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	magin:0;
+	padding:0;
+}
+header{
+	background-image: url("images/taixuong.jfif") ;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+header h1{
+	color:white;
+	padding: 30px;
+	font-size: 30px;
+}
+header nav{
+	background-color:#000000;
+	color: white;
+}
+header nav ul{
+	display:flex;
+	justify-content: space-around;
+	list-style-type: none;
+	padding: 10px;
+}
+section{
+	float:left;
+	width:30%;
+		}
+.luoi {
+	display:flex;
+	justify-content: space-between;
+	button
+
+}
+.anpham{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	
+}
+.anpham1{
+	background-image: url("images/169115773_298586221632696_4634129073458716218_n_20210410120542739.jpg");
+	background-size: cover;
+	height: 300px;
+	width: 200px;
+	background-position: center;
+	
+}
+.anpham2{
+	background-image: url("images/Banner_Mobie_BST_GARMENT FACTORY_SomeHow_211024_03_20211027223900647.jpg");
+	background-size: cover;
+	height: 300px;
+	width: 200px;
+	background-position: center;
+}
+.anpham3{
+	background-image: url("images/Banner_Title_NP_210504_Web-02_20210505110517772.jpg");
+	background-size: cover;
+	height: 300px;
+	width: 200px;
+	background-position: center;
+}
+.anpham4{
+	background-image: url("images/Banner_mobie_20moving21_210306_-01_20210311110359153.jpg");
+	background-size: cover;
+	height: 300px;
+	width: 200px;
+	background-position: center;
+}
+.footer 
+{
+	width:100%;
+	height: 250px;
+	background-color: #000000;
+	
+}
+
